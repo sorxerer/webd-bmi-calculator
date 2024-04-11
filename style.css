@@ -1,0 +1,104 @@
+html{
+    background-color: #17A37E;
+    /* margin: 0; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bmi{
+    width: 70vw;
+    height: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #17A37E;
+
+}
+
+*:focus {
+    outline: 2px solid rgb(124, 124, 127);
+}
+
+.calculate{
+    background-color: #FFFFFF;
+    height: 100%;
+    flex: 1;      
+    border-top-left-radius: 30px;
+    border-bottom-left-radius:30px ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* border-right: 2px solid rgb(243, 235, 235); */
+    
+}
+.representation{
+    flex: 2.2;
+    background-color: white;
+    background-image: url('./images/bmirepresentation.avif');
+    background-size: contain;
+    height: 100%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius:30px ;
+
+ 
+    background-position: center;
+    background-repeat: no-repeat; 
+
+    
+}
+.back{
+    background-color: #FFFFFF;border-top-left-radius: 30px; border-top-right-radius: 30px;
+}
+.copyright{
+    background-color: #17A37E;
+    color: rgb(212, 211, 211);
+    font-weight: lighter;
+    font-size: 15px;
+     text-align: center;
+    
+}
+.height ,.weight{
+        border-radius: 11px;
+        background-color: #CCCCCC;
+        height: 50px; 
+        width: 90%; 
+        
+        padding: 15px 0 0 5px;  
+        /* border-radius: 50px; */
+        /* border-bottom: 2px solid #a9a6a6; color: #555555; */
+}
+
+@media(max-width:900px){
+    
+    .representation{
+        display: none;
+       
+    }
+    button{
+        align-self: center;
+    }
+    .calculate{
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+   
+}
+.btn{
+    width: 100px; margin-left: 16.515px;
+}
+.input{
+    border: none;
+    padding: 0 15px;
+  
+ 
+   }
+.bminumber{
+    color: grey; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; padding: 10PX; padding-bottom: 0px;
+   }
+.colorr{
+    height: 10px; background-color: #25eb60; width: 100%;
+   }
+.para{
+    margin-top: 40px; display: flex; flex-direction: column; gap: 20px; align-items: center;
+   }
